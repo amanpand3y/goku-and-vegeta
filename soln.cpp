@@ -8,7 +8,7 @@ double prob(int k, int g, int v) {
     long long valid = max(0, y - x + 1);
     return (double)valid / total;
 }
-double mini=0.00000000001;
+double mini=0.00000001;
 
 void func(){
 	int n,g,v;
